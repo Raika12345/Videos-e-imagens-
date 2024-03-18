@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com Vídeos e Imagens</title>
+    <style>
+        body {
+            background-image: url('caminho/para/sua/imagem-de-fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .video {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .imagem {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+   <iframe width="100%" height="315" src="https://www.youtube.com/embed/M5Mof0JAUI0" frameborder="0" allowfullscreen></iframe>
+                <p>Descrição do vídeo do YouTube 1</p>
+            </td>
+            <td>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/sRITrFmTT3s" frameborder="0" allowfullscreen></iframe>
+                <p>Descrição do vídeo do YouTube 2</p>
+            </td>
+            <td>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/hg4GqEXeSPk" frameborder="0" allowfullscreen></iframe>
+                <p>Descrição do vídeo do YouTube 3</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+    <img class="imagem" src="https://images.app.goo.gl/pYsTFvLag2ouCzLx6" alt="Imagem 1">
+    <img class="imagem" src="https://images.app.goo.gl/66a2L3NAzngrgwtF7" alt="Imagem 2">
+    <img class="imagem" src=" https://images.app.goo.gl/hWrVAqaXGDJWFxVb7" alt="Imagem 3">
+</body>
+</html>
